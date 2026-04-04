@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tjeneste — Nykøbing Mors Frikirke</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="Logo">
+        Nykøbing Mors Frikirke
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html" data-lang-key="nav_home">Hjem</a></li>
+        <li><a href="om-os.html" data-lang-key="nav_about">Om Os</a></li>
+        <li><a href="tjeneste.html" class="active" data-lang-key="nav_ministry">Tjeneste</a></li>
+        <li><a href="refleksioner.html" data-lang-key="nav_reflections">Refleksioner</a></li>
+        <li><button class="lang-toggle" data-lang-key="lang_toggle">EN</button></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html" data-lang-key="nav_home">Hjem</a>
+      <a href="om-os.html" data-lang-key="nav_about">Om Os</a>
+      <a href="tjeneste.html" data-lang-key="nav_ministry">Tjeneste</a>
+      <a href="refleksioner.html" data-lang-key="nav_reflections">Refleksioner</a>
+      <button class="lang-toggle" data-lang-key="lang_toggle">EN</button>
+    </div>
+  </nav>
+
+  <!-- Hero Image -->
+  <section class="hero-image">
+    <img src="assets/images/fellowship-hall.jpg" alt="Vores Team">
+    <div class="hero-content">
+      <h1 data-lang-key="ministry_title">Vores Team</h1>
+      <p data-lang-key="ministry_subtitle">Mød menneskene bag kirken</p>
+    </div>
+  </section>
+
+  <!-- Team Grid -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="team-grid">
+        <div class="team-card" data-aos="fade-up" data-aos-delay="0">
+          <img class="team-photo" src="assets/images/team-1.jpg" alt="Samuel Christian Tondje">
+          <h3 data-lang-key="team_1_name">Samuel Christian Tondje</h3>
+          <p data-lang-key="team_1_role">Præst</p>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+          <img class="team-photo" src="assets/images/team-2.jpg" alt="Poul-Henrik Carl">
+          <h3 data-lang-key="team_2_name">Poul-Henrik Carl</h3>
+          <p data-lang-key="team_2_role">Daglig leder</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Genbrugsbutik Section -->
+  <section class="section" style="background:var(--white);" data-aos="fade-up">
+    <div class="section-inner">
+      <h2 class="section-title" data-lang-key="shop_title">Genbrugsbutikken</h2>
+      <p class="section-subtitle" data-lang-key="shop_subtitle">Vores butik i hjertet af Nykøbing Mors</p>
+      <div class="about-content" style="margin-bottom:2rem;">
+        <p data-lang-key="shop_text">Vores genbrugsbutik er en del af kirkens arbejde og fællesskab. Her finder du et bredt udvalg af tøj, møbler, boligting og meget mere til gode priser. Overskuddet går til kirkens arbejde i lokalsamfundet. Kom forbi og find en skat!</p>
+      </div>
+      <div class="shop-gallery">
+        <img src="assets/images/shop-1.jpg" alt="Genbrugsbutik" data-aos="fade-up">
+        <img src="assets/images/shop-2.jpg" alt="Genbrugsbutik" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/images/shop-3.jpg" alt="Genbrugsbutik" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/images/shop-4.jpg" alt="Genbrugsbutik" data-aos="fade-up" data-aos-delay="300">
+        <img src="assets/images/shop-5.jpg" alt="Genbrugsbutik" data-aos="fade-up" data-aos-delay="400">
+        <img src="assets/images/church-side.jpg" alt="Kirken" data-aos="fade-up" data-aos-delay="500">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p data-lang-key="footer_text">© 2026 Nykøbing Mors Frikirke. Alle rettigheder forbeholdes.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

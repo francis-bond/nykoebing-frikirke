@@ -1,0 +1,136 @@
+<!--
+  DRONE VIDEO GUIDANCE:
+  - Recommended format: MP4 (H.264 codec) for broadest browser compatibility
+  - Recommended resolution: 1080p (1920x1080) — 4K is unnecessary for web hero
+    backgrounds and will slow load times significantly
+  - Target file size: under 15MB for fast loading (compress with HandBrake if needed)
+  - Recommended settings in HandBrake: RF 28, 1080p, no audio needed
+  - Place your video file at: assets/video/hero.mp4
+  - For a fallback poster image (shown before video loads), place a still frame
+    at: assets/video/hero-poster.jpg
+  - The <video> tag already includes: autoplay muted loop playsinline poster
+  - On iOS Safari, autoplay requires muted + playsinline attributes (already set)
+-->
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nykøbing Mors Frikirke</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="Logo">
+        Nykøbing Mors Frikirke
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html" class="active" data-lang-key="nav_home">Hjem</a></li>
+        <li><a href="om-os.html" data-lang-key="nav_about">Om Os</a></li>
+        <li><a href="tjeneste.html" data-lang-key="nav_ministry">Tjeneste</a></li>
+        <li><a href="refleksioner.html" data-lang-key="nav_reflections">Refleksioner</a></li>
+        <li><button class="lang-toggle" data-lang-key="lang_toggle">EN</button></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html" data-lang-key="nav_home">Hjem</a>
+      <a href="om-os.html" data-lang-key="nav_about">Om Os</a>
+      <a href="tjeneste.html" data-lang-key="nav_ministry">Tjeneste</a>
+      <a href="refleksioner.html" data-lang-key="nav_reflections">Refleksioner</a>
+      <button class="lang-toggle" data-lang-key="lang_toggle">EN</button>
+    </div>
+  </nav>
+
+  <!-- Hero Video -->
+  <section class="hero-video">
+    <video autoplay muted loop playsinline preload="none" poster="assets/video/hero-poster.jpg">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 data-lang-key="hero_title">Nykøbing Mors Frikirke</h1>
+      <p data-lang-key="hero_subtitle">Velkommen til Nykøbing Mors Frikirke</p>
+      <a href="om-os.html" class="btn btn-primary" data-lang-key="hero_cta">Lær Os At Kende</a>
+    </div>
+  </section>
+
+  <!-- About Snippet -->
+  <section class="section" data-aos="fade-up">
+    <div class="section-inner about-snippet">
+      <img src="assets/images/church-exterior.jpg" alt="Nykøbing Mors Frikirke">
+      <div class="about-snippet-text">
+        <h2 data-lang-key="about_snippet_title">Et Varmt Fællesskab</h2>
+        <p data-lang-key="about_snippet_text">Nykøbing Mors Frikirke er et åbent og varmt kristent fællesskab midt i hjertet af Nykøbing Mors. Vi tror på, at kirken er et sted, hvor alle er velkomne — uanset baggrund, alder eller livssituation. Hos os finder du fællesskab, tro og nærvær i en atmosfære præget af kærlighed og respekt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Church Life Gallery -->
+  <section class="section" style="background:var(--white);" data-aos="fade-up">
+    <div class="section-inner">
+      <div class="gallery-grid">
+        <img src="assets/images/fellowship-hall.jpg" alt="Fællesskab" data-aos="fade-up">
+        <img src="assets/images/community-1.jpg" alt="Menighed" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/images/children-room.jpg" alt="Børnekirke" data-aos="fade-up" data-aos-delay="200">
+      </div>
+    </div>
+  </section>
+
+  <!-- Facebook Feed -->
+  <section class="section facebook-section" data-aos="fade-up">
+    <div class="section-inner">
+      <h2 class="section-title" data-lang-key="facebook_title">Følg Os På Facebook</h2>
+      <div class="facebook-embed" style="margin-top:2rem;">
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNykobingMorsFrikirke&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true"
+          width="500"
+          height="600"
+          style="border:none;overflow:hidden;max-width:100%;"
+          scrolling="no"
+          frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation Section -->
+  <section class="section donation-section" data-aos="fade-up">
+    <div class="section-inner">
+      <h2 class="section-title" data-lang-key="donation_title">Støt Kirkens Arbejde</h2>
+      <div class="donation-box">
+        <p data-lang-key="donation_text">Gaver til kirkens arbejde kan indbetales på:</p>
+        <p class="donation-method" data-lang-key="donation_mobilepay">MobilePay: 49 99 54</p>
+        <p class="donation-method" data-lang-key="donation_bank">Bankkonto: 9100-1025 888 371</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Strip -->
+  <div class="info-strip">
+    <div class="info-strip-inner">
+      <span>📍 <span data-lang-key="info_address">Aagade 8, 7900 Nykøbing Mors</span></span>
+      <span>🕐 <span data-lang-key="info_time">Søndag kl. 10:00</span></span>
+      <span>✉ <span data-lang-key="info_email">samuelchristiant@gmail.com</span></span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p data-lang-key="footer_text">© 2026 Nykøbing Mors Frikirke. Alle rettigheder forbeholdes.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/lang.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
