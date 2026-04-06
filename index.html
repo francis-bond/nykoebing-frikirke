@@ -1,15 +1,10 @@
 <!--
   DRONE VIDEO GUIDANCE:
   - Recommended format: MP4 (H.264 codec) for broadest browser compatibility
-  - Recommended resolution: 1080p (1920x1080) — 4K is unnecessary for web hero
-    backgrounds and will slow load times significantly
+  - Recommended resolution: 1080p (1920x1080)
   - Target file size: under 15MB for fast loading (compress with HandBrake if needed)
-  - Recommended settings in HandBrake: RF 28, 1080p, no audio needed
   - Place your video file at: assets/video/hero.mp4
-  - For a fallback poster image (shown before video loads), place a still frame
-    at: assets/video/hero-poster.jpg
-  - The <video> tag already includes: autoplay muted loop playsinline poster
-  - On iOS Safari, autoplay requires muted + playsinline attributes (already set)
+  - Poster image at: assets/video/hero-poster.jpg
 -->
 <!DOCTYPE html>
 <html lang="da">
@@ -30,12 +25,16 @@
     <div class="navbar-inner">
       <a href="index.html" class="navbar-brand">
         <img src="assets/images/logo.png" alt="Logo">
-        Nykøbing Mors Frikirke
+        <span class="navbar-brand-text">
+          Nykøbing Mors Frikirke
+          <span class="navbar-brand-sub">apostolsk kirke</span>
+        </span>
       </a>
       <ul class="navbar-links">
         <li><a href="index.html" class="active" data-lang-key="nav_home">Hjem</a></li>
         <li><a href="om-os.html" data-lang-key="nav_about">Om Os</a></li>
-        <li><a href="tjeneste.html" data-lang-key="nav_ministry">Tjeneste</a></li>
+        <li><a href="ledelse.html" data-lang-key="nav_leadership">Ledelse</a></li>
+        <li><a href="genbrugsbutik.html" data-lang-key="nav_shop">Genbrugsbutik</a></li>
         <li><a href="refleksioner.html" data-lang-key="nav_reflections">Refleksioner</a></li>
         <li><button class="lang-toggle" data-lang-key="lang_toggle">EN</button></li>
       </ul>
@@ -44,7 +43,8 @@
     <div class="mobile-menu">
       <a href="index.html" data-lang-key="nav_home">Hjem</a>
       <a href="om-os.html" data-lang-key="nav_about">Om Os</a>
-      <a href="tjeneste.html" data-lang-key="nav_ministry">Tjeneste</a>
+      <a href="ledelse.html" data-lang-key="nav_leadership">Ledelse</a>
+      <a href="genbrugsbutik.html" data-lang-key="nav_shop">Genbrugsbutik</a>
       <a href="refleksioner.html" data-lang-key="nav_reflections">Refleksioner</a>
       <button class="lang-toggle" data-lang-key="lang_toggle">EN</button>
     </div>
@@ -74,8 +74,31 @@
     </div>
   </section>
 
-  <!-- Church Life Gallery -->
+  <!-- Program Section -->
   <section class="section" style="background:var(--white);" data-aos="fade-up">
+    <div class="section-inner">
+      <h2 class="section-title" data-lang-key="program_title">Program</h2>
+      <p class="section-subtitle" data-lang-key="program_intro">Nykøbing Mors Frikirke byder dig velkommen hver uge:</p>
+      <div class="program-grid">
+        <div class="program-card" data-aos="fade-up">
+          <p class="program-day" data-lang-key="program_sunday">Søndag kl. 10.30</p>
+          <p class="program-event" data-lang-key="program_sunday_label">Gudstjeneste</p>
+        </div>
+        <div class="program-card" data-aos="fade-up" data-aos-delay="100">
+          <p class="program-day" data-lang-key="program_tuesday">Tirsdag kl. 19.00</p>
+          <p class="program-event" data-lang-key="program_tuesday_label">Bibelstudie</p>
+        </div>
+        <div class="program-card" data-aos="fade-up" data-aos-delay="200">
+          <p class="program-day" data-lang-key="program_friday">Fredag i ulige uger kl. 19.00</p>
+          <p class="program-event" data-lang-key="program_friday_label">Bøn</p>
+        </div>
+      </div>
+      <p class="program-note" data-lang-key="program_note">For yderligere information eller ændringer henvises der til vores Facebook-side eller hjemmeside.</p>
+    </div>
+  </section>
+
+  <!-- Church Life Gallery -->
+  <section class="section" data-aos="fade-up">
     <div class="section-inner">
       <div class="gallery-grid">
         <img src="assets/images/fellowship-hall.jpg" alt="Fællesskab" data-aos="fade-up">
@@ -86,7 +109,7 @@
   </section>
 
   <!-- Facebook Feed -->
-  <section class="section facebook-section" data-aos="fade-up">
+  <section class="section facebook-section" style="background:var(--white);" data-aos="fade-up">
     <div class="section-inner">
       <h2 class="section-title" data-lang-key="facebook_title">Følg Os På Facebook</h2>
       <div class="facebook-embed" style="margin-top:2rem;">
@@ -119,7 +142,7 @@
   <div class="info-strip">
     <div class="info-strip-inner">
       <span>📍 <span data-lang-key="info_address">Aagade 8, 7900 Nykøbing Mors</span></span>
-      <span>🕐 <span data-lang-key="info_time">Søndag kl. 10:00</span></span>
+      <span>🕐 <span data-lang-key="info_time">Søndag kl. 10.30</span></span>
       <span>✉ <span data-lang-key="info_email">samuelchristiant@gmail.com</span></span>
     </div>
   </div>
