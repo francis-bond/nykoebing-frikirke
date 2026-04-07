@@ -8,23 +8,23 @@ const LANG = {
     nav_reflections: "Refleksioner",
     lang_toggle: "EN",
 
-    // Home — Hero
+    // Home - Hero
     hero_title: "Nykøbing Mors Frikirke",
     hero_subtitle: "Velkommen til Nykøbing Mors Frikirke",
     hero_cta: "Lær Os At Kende",
 
-    // Home — Welcome (Velkomstord)
+    // Home - Welcome (Velkomstord)
     welcome_title: "Velkomstord",
     welcome_text:
-      "I hjertet af Nykøbing Mors, en rolig by i Norddanmark, ligger vores kirke, Nykøbing Mors Frikirke. Siden 1936 har dette sted været fyldt med Guds kærlighed til alle mennesker. Her er alle velkomne, præcis som de er. Men ingen går herfra helt de samme, for Guds ord giver lys, og Jesu kærlighed trøster og forandrer os. Kom som du er, og oplev Guds kærlighed, lys og fred. Vi glæder os til at se dig — Gud velsigne dig i Jesu navn.",
+      "I hjertet af Nykøbing Mors, en rolig by i Norddanmark, ligger vores kirke, Nykøbing Mors Frikirke. Siden 1936 har dette sted været fyldt med Guds kærlighed til alle mennesker. Her er alle velkomne, præcis som de er. Men ingen går herfra helt de samme, for Guds ord giver lys, og Jesu kærlighed trøster og forandrer os. Kom som du er, og oplev Guds kærlighed, lys og fred. Vi glæder os til at se dig. Gud velsigne dig i Jesu navn.",
     welcome_verse: "\"Hvis nogen er i Kristus, er han en ny skabning\" (2 Korintherbrev 5:17)",
 
-    // Home — About snippet
+    // Home - About snippet
     about_snippet_title: "Et Varmt Fællesskab",
     about_snippet_text:
-      "Nykøbing Mors Frikirke er et åbent og varmt kristent fællesskab midt i hjertet af Nykøbing Mors. Vi tror på, at kirken er et sted, hvor alle er velkomne — uanset baggrund, alder eller livssituation. Hos os finder du fællesskab, tro og nærvær i en atmosfære præget af kærlighed og respekt.",
+      "Nykøbing Mors Frikirke er et åbent og varmt kristent fællesskab midt i hjertet af Nykøbing Mors. Vi tror på, at kirken er et sted, hvor alle er velkomne, uanset baggrund, alder eller livssituation. Hos os finder du fællesskab, tro og nærvær i en atmosfære præget af kærlighed og respekt.",
 
-    // Home — Program
+    // Home - Program
     program_title: "Program",
     program_intro: "Nykøbing Mors Frikirke byder dig velkommen hver uge:",
     program_sunday: "Søndag kl. 10.30",
@@ -36,15 +36,15 @@ const LANG = {
     program_note:
       "For yderligere information eller ændringer henvises der til vores Facebook-side eller hjemmeside.",
 
-    // Home — Facebook
+    // Home - Facebook
     facebook_title: "Følg Os På Facebook",
 
-    // Home — Info strip
+    // Home - Info strip
     info_address: "Aagade 8, 7900 Nykøbing Mors",
     info_time: "Søndag kl. 10.30",
     info_email: "samuelchristiant@gmail.com",
 
-    // Home — Donation
+    // Home - Donation
     donation_title: "Støt Kirkens Arbejde",
     donation_text: "Gaver til kirkens arbejde kan indbetales på:",
     donation_mobilepay: "MobilePay: 49 99 54",
@@ -52,8 +52,16 @@ const LANG = {
 
     // About page
     about_hero_title: "Om Os",
-    about_text:
-      "Nykøbing Mors Frikirke er en forsamling af mennesker, der er samlet omkring troen på Jesus Kristus. Grundlagt i 1936 af kristne, hvis eneste styrke var deres kærlighed til Gud, bærer kirken stadig i dag denne arv af tro, troskab og engagement. Vi er forenet i vores tilknytning til Guds ord, som leder vores liv, former vores relationer og giver retning til vores vandring. Vi ønsker at vokse sammen, opmuntre hinanden og leve evangeliets værdier ud i praksis. I forsamlingen lægger vi stor vægt på at lytte, støtte og vejlede. Vi ønsker at skabe et rum, hvor enhver kan blive hørt, rådgivet og opmuntret — særligt unge og par. Vi ønsker at være en åben og imødekommende kirke. Alle er velkomne, uanset oprindelse eller sprog. For at alle kan deltage fuldt ud, tilbyder vi oversættelse under gudstjenesterne samt høreudstyr, så budskabet kan forstås på ens eget sprog. Kirken er et levende fællesskab præget af kærlighed, tilgivelse og næstekærlighed, og vi ønsker at afspejle Guds kærlighed i vores handlinger og relationer. Vi inviterer dig til at komme og være en del af fællesskabet, til at opdage Guds ord sammen med os og til at tage del i en levende tro, der ønsker at gøre en positiv forskel i samfundet.",
+    about_text_1:
+      "Nykøbing Mors Frikirke er en forsamling af mennesker, der er samlet omkring troen på Jesus Kristus. Grundlagt i 1936 af kristne, hvis eneste styrke var deres kærlighed til Gud, bærer kirken stadig i dag denne arv af tro, troskab og engagement.",
+    about_text_2:
+      "Vi er forenet i vores tilknytning til Guds ord, som leder vores liv, former vores relationer og giver retning til vores vandring. Vi ønsker at vokse sammen, opmuntre hinanden og leve evangeliets værdier ud i praksis.",
+    about_text_3:
+      "I forsamlingen lægger vi stor vægt på at lytte, støtte og vejlede. Vi ønsker at skabe et rum, hvor enhver kan blive hørt, rådgivet og opmuntret, særligt unge og par.",
+    about_text_4:
+      "Vi ønsker at være en åben og imødekommende kirke. Alle er velkomne, uanset oprindelse eller sprog. For at alle kan deltage fuldt ud, tilbyder vi oversættelse under gudstjenesterne samt høreudstyr, så budskabet kan forstås på ens eget sprog.",
+    about_text_5:
+      "Kirken er et levende fællesskab præget af kærlighed, tilgivelse og næstekærlighed, og vi ønsker at afspejle Guds kærlighed i vores handlinger og relationer. Vi inviterer dig til at komme og være en del af fællesskabet, til at opdage Guds ord sammen med os og til at tage del i en levende tro, der ønsker at gøre en positiv forskel i samfundet.",
     about_values_title: "Vores Værdier",
     value_faith_title: "Tro",
     value_faith_text:
@@ -63,7 +71,7 @@ const LANG = {
       "I Nykøbing Mors Frikirke er fællesskabet kernen i vores kirkeliv. Det er gennem fællesskabet, at vi udlever vores værdier som næstekærlighed, støtte og omsorg. Vi engagerer os aktivt i lokale initiativer, blandt andet gennem vores genbrugsbutik. Indtægterne bruges til at støtte organisationer og projekter i vores by og internationalt. Fællesskabet er et sted med hjælp, støtte og handling, hvor hver enkelt kan bidrage og leve sin tro ud i praksis.",
     value_service_title: "Tjeneste",
     value_service_text:
-      "Tjeneste er det synlige udtryk for vores tro. Vi begrænser os ikke til at tjene lokalt, men ønsker også at støtte andre fællesskaber — både i Danmark og internationalt. Vi samarbejder med andre kirker og deltager i humanitære projekter. Vores ønske er at møde de mest sårbares behov konkret. Gennem tjenesten ønsker vi som kirke at være et redskab for kærlighed, omsorg og håb.",
+      "Tjeneste er det synlige udtryk for vores tro. Vi begrænser os ikke til at tjene lokalt, men ønsker også at støtte andre fællesskaber, både i Danmark og internationalt. Vi samarbejder med andre kirker og deltager i humanitære projekter. Vores ønske er at møde de mest sårbares behov konkret. Gennem tjenesten ønsker vi som kirke at være et redskab for kærlighed, omsorg og håb.",
     find_us_title: "Find Os",
 
     // Contact section
@@ -90,7 +98,7 @@ const LANG = {
     shop_title: "Genbrugsbutikken",
     shop_subtitle: "Vores butik i hjertet af Nykøbing Mors",
     shop_text:
-      "Vores genbrugsbutik er en vigtig del af kirkens liv og arbejde. Her finder du et stort udvalg af tøj, ting til hjemmet og mange andre gode fund — alt sammen til overkommelige og attraktive priser. Overskuddet går udelukkende til at støtte kirkens velgørende arbejde, både lokalt og internationalt. Kom og besøg os, støt vores arbejde… og måske finder du din næste lille skat!",
+      "Vores genbrugsbutik er en vigtig del af kirkens liv og arbejde. Her finder du et stort udvalg af tøj, ting til hjemmet og mange andre gode fund, alt sammen til overkommelige og attraktive priser. Overskuddet går udelukkende til at støtte kirkens velgørende arbejde, både lokalt og internationalt. Kom og besøg os, støt vores arbejde… og måske finder du din næste lille skat!",
 
     // Reflections page
     reflections_title: "Refleksioner",
@@ -99,7 +107,7 @@ const LANG = {
     reflection_1_date: "1. marts 2026",
     reflection_1_title: "En Ny Sæson",
     reflection_1_excerpt:
-      "Det var en stor glæde og en stærk oplevelse at se så mange mennesker samlet den 1. marts i Nykøbing Mors Frikirke i forbindelse med min indsættelse som præst. Efter en periode med kolde og grå dage brød solen frem — som et spejl af den glæde, der lyste i ansigterne...",
+      "Det var en stor glæde og en stærk oplevelse at se så mange mennesker samlet den 1. marts i Nykøbing Mors Frikirke i forbindelse med min indsættelse som præst. Efter en periode med kolde og grå dage brød solen frem, som et spejl af den glæde, der lyste i ansigterne...",
 
     reflection_2_date: "8. marts 2026",
     reflection_2_title: "Kærlighed i Handling",
@@ -109,7 +117,7 @@ const LANG = {
     reflection_3_date: "15. marts 2026",
     reflection_3_title: "Troen Som Kilde Til Fred",
     reflection_3_excerpt:
-      "I en verden præget af uro og forandring kan fred virke afhængig af vores omstændigheder. Men den sande fred kommer ikke fra det, der sker omkring os — den kommer fra det, vi tror på. Troen lærer os ikke at bygge på det, vi ser, men på det, Gud siger...",
+      "I en verden præget af uro og forandring kan fred virke afhængig af vores omstændigheder. Men den sande fred kommer ikke fra det, der sker omkring os. Den kommer fra det, vi tror på. Troen lærer os ikke at bygge på det, vi ser, men på det, Gud siger...",
 
     reflection_4_date: "22. marts 2026",
     reflection_4_title: "Identitetens Kraft",
@@ -131,23 +139,23 @@ const LANG = {
     nav_reflections: "Reflections",
     lang_toggle: "DA",
 
-    // Home — Hero
+    // Home - Hero
     hero_title: "Nykøbing Mors Frikirke",
     hero_subtitle: "Welcome to Nykøbing Mors Frikirke",
     hero_cta: "Get to Know Us",
 
-    // Home — Welcome
+    // Home - Welcome
     welcome_title: "Welcome",
     welcome_text:
-      "In the heart of Nykøbing Mors, a peaceful town in Northern Denmark, lies our church, Nykøbing Mors Frikirke. Since 1936, this place has been filled with God's love for all people. Here, everyone is welcome, exactly as they are. But no one leaves quite the same, for God's word gives light, and the love of Jesus comforts and transforms us. Come as you are, and experience God's love, light, and peace. We look forward to seeing you — God bless you in Jesus' name.",
+      "In the heart of Nykøbing Mors, a peaceful town in Northern Denmark, lies our church, Nykøbing Mors Frikirke. Since 1936, this place has been filled with God's love for all people. Here, everyone is welcome, exactly as they are. But no one leaves quite the same, for God's word gives light, and the love of Jesus comforts and transforms us. Come as you are, and experience God's love, light, and peace. We look forward to seeing you. God bless you in Jesus' name.",
     welcome_verse: "\"If anyone is in Christ, he is a new creation\" (2 Corinthians 5:17)",
 
-    // Home — About snippet
+    // Home - About snippet
     about_snippet_title: "A Warm Community",
     about_snippet_text:
-      "Nykøbing Mors Frikirke is an open and warm Christian community in the heart of Nykøbing Mors. We believe the church is a place where everyone is welcome — regardless of background, age, or life situation. With us you will find fellowship, faith, and presence in an atmosphere of love and respect.",
+      "Nykøbing Mors Frikirke is an open and warm Christian community in the heart of Nykøbing Mors. We believe the church is a place where everyone is welcome, regardless of background, age, or life situation. With us you will find fellowship, faith, and presence in an atmosphere of love and respect.",
 
-    // Home — Program
+    // Home - Program
     program_title: "Program",
     program_intro: "Nykøbing Mors Frikirke welcomes you every week:",
     program_sunday: "Sunday at 10:30 AM",
@@ -159,15 +167,15 @@ const LANG = {
     program_note:
       "For further information or changes, please refer to our Facebook page or website.",
 
-    // Home — Facebook
+    // Home - Facebook
     facebook_title: "Follow Us on Facebook",
 
-    // Home — Info strip
+    // Home - Info strip
     info_address: "Aagade 8, 7900 Nykøbing Mors",
     info_time: "Sundays at 10:30 AM",
     info_email: "samuelchristiant@gmail.com",
 
-    // Home — Donation
+    // Home - Donation
     donation_title: "Support the Church",
     donation_text: "Donations to the church can be made to:",
     donation_mobilepay: "MobilePay: 49 99 54",
@@ -175,8 +183,16 @@ const LANG = {
 
     // About page
     about_hero_title: "About Us",
-    about_text:
-      "Nykøbing Mors Frikirke is a congregation of people gathered around faith in Jesus Christ. Founded in 1936 by Christians whose only strength was their love for God, the church still carries this heritage of faith, faithfulness, and commitment today. We are united in our attachment to God's word, which guides our lives, shapes our relationships, and gives direction to our journey. We wish to grow together, encourage one another, and live out the values of the Gospel in practice. In our congregation, we place great emphasis on listening, supporting, and guiding. We want to create a space where everyone can be heard, counselled, and encouraged — especially young people and couples. We wish to be an open and welcoming church. Everyone is welcome, regardless of origin or language. So that everyone can participate fully, we offer translation during services as well as hearing equipment, so the message can be understood in one's own language. The church is a living community marked by love, forgiveness, and neighbourly care, and we wish to reflect God's love in our actions and relationships. We invite you to come and be part of the community, to discover God's word together with us, and to take part in a living faith that seeks to make a positive difference in society.",
+    about_text_1:
+      "Nykøbing Mors Frikirke is a congregation of people gathered around faith in Jesus Christ. Founded in 1936 by Christians whose only strength was their love for God, the church still carries this heritage of faith, faithfulness, and commitment today.",
+    about_text_2:
+      "We are united in our attachment to God's word, which guides our lives, shapes our relationships, and gives direction to our journey. We wish to grow together, encourage one another, and live out the values of the Gospel in practice.",
+    about_text_3:
+      "In our congregation, we place great emphasis on listening, supporting, and guiding. We want to create a space where everyone can be heard, counselled, and encouraged, especially young people and couples.",
+    about_text_4:
+      "We wish to be an open and welcoming church. Everyone is welcome, regardless of origin or language. So that everyone can participate fully, we offer translation during services as well as hearing equipment, so the message can be understood in one's own language.",
+    about_text_5:
+      "The church is a living community marked by love, forgiveness, and neighbourly care, and we wish to reflect God's love in our actions and relationships. We invite you to come and be part of the community, to discover God's word together with us, and to take part in a living faith that seeks to make a positive difference in society.",
     about_values_title: "Our Values",
     value_faith_title: "Faith",
     value_faith_text:
@@ -186,7 +202,7 @@ const LANG = {
       "At Nykøbing Mors Frikirke, community is at the heart of our church life. It is through community that we live out our values of neighbourly love, support, and care. We are actively involved in local initiatives, including through our thrift shop. The proceeds are used to support organisations and projects in our town and internationally. Community is a place of help, support, and action, where each person can contribute and live out their faith in practice.",
     value_service_title: "Service",
     value_service_text:
-      "Service is the visible expression of our faith. We do not limit ourselves to serving locally but also wish to support other communities — both in Denmark and internationally. We work with other churches and participate in humanitarian projects. Our desire is to meet the needs of the most vulnerable in a concrete way. Through service, we as a church wish to be an instrument of love, care, and hope.",
+      "Service is the visible expression of our faith. We do not limit ourselves to serving locally but also wish to support other communities, both in Denmark and internationally. We work with other churches and participate in humanitarian projects. Our desire is to meet the needs of the most vulnerable in a concrete way. Through service, we as a church wish to be an instrument of love, care, and hope.",
     find_us_title: "Find Us",
 
     // Contact section
@@ -213,7 +229,7 @@ const LANG = {
     shop_title: "The Thrift Shop",
     shop_subtitle: "Our shop in the heart of Nykøbing Mors",
     shop_text:
-      "Our thrift shop is an important part of the church's life and work. Here you will find a wide selection of clothing, home goods, and many other great finds — all at affordable and attractive prices. The proceeds go exclusively to support the church's charitable work, both locally and internationally. Come and visit us, support our work… and perhaps you will find your next little treasure!",
+      "Our thrift shop is an important part of the church's life and work. Here you will find a wide selection of clothing, home goods, and many other great finds, all at affordable and attractive prices. The proceeds go exclusively to support the church's charitable work, both locally and internationally. Come and visit us, support our work… and perhaps you will find your next little treasure!",
 
     // Reflections page
     reflections_title: "Reflections",
@@ -222,7 +238,7 @@ const LANG = {
     reflection_1_date: "March 1, 2026",
     reflection_1_title: "A New Season",
     reflection_1_excerpt:
-      "It was a great joy and a powerful experience to see so many people gathered on March 1 at Nykøbing Mors Frikirke for my installation as pastor. After a period of cold and grey days, the sun broke through — like a mirror of the joy shining in the faces...",
+      "It was a great joy and a powerful experience to see so many people gathered on March 1 at Nykøbing Mors Frikirke for my installation as pastor. After a period of cold and grey days, the sun broke through, like a mirror of the joy shining in the faces...",
 
     reflection_2_date: "March 8, 2026",
     reflection_2_title: "Love in Action",
@@ -232,7 +248,7 @@ const LANG = {
     reflection_3_date: "March 15, 2026",
     reflection_3_title: "Faith as a Source of Peace",
     reflection_3_excerpt:
-      "In a world marked by unrest and change, peace can seem dependent on our circumstances. But true peace does not come from what happens around us — it comes from what we believe. Faith teaches us not to build on what we see, but on what God says...",
+      "In a world marked by unrest and change, peace can seem dependent on our circumstances. But true peace does not come from what happens around us. It comes from what we believe. Faith teaches us not to build on what we see, but on what God says...",
 
     reflection_4_date: "March 22, 2026",
     reflection_4_title: "The Power of Identity",
