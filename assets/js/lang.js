@@ -106,25 +106,23 @@ const LANG = {
 
     reflection_1_date: "1. marts 2026",
     reflection_1_title: "En Ny Sæson",
-    reflection_1_excerpt:
-      "Det var en stor glæde og en stærk oplevelse at se så mange mennesker samlet den 1. marts i Nykøbing Mors Frikirke i forbindelse med min indsættelse som præst. Efter en periode med kolde og grå dage brød solen frem, som et spejl af den glæde, der lyste i ansigterne...",
+    reflection_1_body:
+      '<p>Det var en stor glæde og en stærk oplevelse at se så mange mennesker samlet den 1. marts i Nykøbing Mors Frikirke i forbindelse med min indsættelse som præst.</p><p>Den første dag i marts blev en særlig dag. Efter en periode med kolde og grå dage brød solen frem, som et spejl af den glæde, der lyste i ansigterne hos kirkens medlemmer, venner og gæster. De varme møder, opmuntringerne og de velsignelser, der blev talt over min hustru, mig selv og kirken, rørte mig dybt. Det var også en stor glæde at dele dette øjeblik med min familie, herunder min far, som var rejst fra USA.</p><p>Midt i glæden blev jeg samtidig mindet om ansvarets tyngde. I min første prædiken udtrykte jeg ydmygt, at opgaven er større end mine egne kræfter. Mødet med håbet i forsamlingen og forventningerne til dette kald gjorde det klart for mig, hvor afhængig jeg er af Guds hjælp.</p><blockquote class="bible-verse">\"Uden mig kan I slet intet gøre.\" (Johannesevangeliet 15,5)</blockquote><p>Jeg er dybt taknemmelig for kaldet til denne tjeneste og for den tillid, kirkens ledelse har vist mig. Det er en glæde at få lov til at tjene i Danmark ved at dele det, Gud har lagt i mit hjerte: at forkynde hans ord og se liv blive forvandlet ved kraften i Jesus Kristus.</p><p>Med Guds nåde ser jeg frem til at opleve, hvordan Herren vil velsigne kirken, byen, landet og videre ud i Europa og verden. For vi er kaldet til at være verdens lys.</p><p><em>Guds velsignelse<br>Samuel Christian Tondje</em></p>',
 
     reflection_2_date: "8. marts 2026",
     reflection_2_title: "Kærlighed i Handling",
-    reflection_2_excerpt:
-      "Vi taler alle om kærlighed. Men elsker vi egentlig på samme måde? Bibelen viser os, at der findes forskellige former for kærlighed: Eros tiltrækker, phileo knytter bånd, men agape giver. Den sande kærlighed bliver åbenbaret i Jesus Kristus...",
+    reflection_2_body:
+      '<p>Vi taler alle om kærlighed. Men elsker vi egentlig på samme måde?</p><p>Vi \"elsker\" mad, en bil, en ven, en ægtefælle… Men det er ikke det samme. Ordet er det samme, men betydningen er forskellig.</p><p>Bibelen viser os, at der findes forskellige former for kærlighed: Eros tiltrækker, phileo knytter bånd, men agape giver. Man kan føle tilknytning uden at give sig selv. Man kan begære uden at elske sandt.</p><p>Den sande kærlighed bliver åbenbaret i Jesus Kristus.</p><blockquote class="bible-verse">\"Ingen har større kærlighed end den, der giver sit liv for sine venner.\" (Johannesevangeliet 15,13)</blockquote><p>Kristus taler ikke kun om kærlighed. Han viser den. Han giver. Han overgiver sig. Han ofrer sig.</p><p>Gud elsker, og han handler. Han gav sin søn.</p><blockquote class="bible-verse">\"For således elskede Gud verden, at han gav sin enbårne søn…\" (Johannesevangeliet 3,16)</blockquote><p>Kærlighed i handling er agape: En kærlighed, der ikke kun føler, men vælger, forpligter sig og giver sig selv. Det er denne kærlighed, vi er kaldet til at leve i.</p>',
 
     reflection_3_date: "15. marts 2026",
     reflection_3_title: "Troen Som Kilde Til Fred",
-    reflection_3_excerpt:
-      "I en verden præget af uro og forandring kan fred virke afhængig af vores omstændigheder. Men den sande fred kommer ikke fra det, der sker omkring os. Den kommer fra det, vi tror på. Troen lærer os ikke at bygge på det, vi ser, men på det, Gud siger...",
+    reflection_3_body:
+      '<p>I en verden præget af uro og forandring kan fred virke afhængig af vores omstændigheder. Men den sande fred kommer ikke fra det, der sker omkring os. Den kommer fra det, vi tror på.</p><p>Troen lærer os ikke at bygge på det, vi ser, men på det, Gud siger. Når omstændighederne skaber uro, giver troen en indre ro. Den hjælper os med at overgive det, vi ikke selv kan kontrollere, til Gud.</p><p>At tro er at have tillid. Og at have tillid til Gud er at finde hvile.</p><p>Troen benægter ikke livets udfordringer, men den lader dem ikke få det sidste ord. Den forankrer os i en sandhed, der er større end vores følelser: Guds trofasthed.</p><blockquote class="bible-verse">\"Den, der stoler på dig med et fast hjerte, bevarer du i fred, i fred.\" (Esajas 26,3)</blockquote><p>Jo mere vores tro vokser, jo mere vokser også freden i os. Ikke fordi alt ændrer sig omkring os, men fordi noget forandres inde i os.</p>',
 
     reflection_4_date: "22. marts 2026",
     reflection_4_title: "Identitetens Kraft",
-    reflection_4_excerpt:
-      "Vores identitet i Kristus afhænger ikke af de omstændigheder, vi gennemgår, men af Ham, som har defineret os. Bibelen siger: « Hvis nogen er i Kristus, er han en ny skabning. Det gamle er forbi, se, noget nyt er blevet til. »...",
-
-    read_more: "Læs Mere",
+    reflection_4_body:
+      '<p>Vores identitet i Kristus afhænger ikke af de omstændigheder, vi gennemgår, men af Ham, som har defineret os.</p><p>I hverdagen ændrer vores identitet sig ikke efter vores situation eller vores ydre. Den er fastlagt af en autoritet. På samme måde er vores åndelige identitet givet af Gud og forbliver den samme, uanset hvilke sæsoner vi går igennem.</p><blockquote class="bible-verse">\"Hvis nogen er i Kristus, er han en ny skabning. Det gamle er forbi, se, noget nyt er blevet til.\" (2. Korintherbrev 5,17)</blockquote><p>Alligevel lader vi ofte vores omstændigheder definere vores opfattelse af os selv. Vi ser på det, vi oplever, i stedet for at holde fast i det, Gud siger.</p><p>Lad os lære at se os selv gennem Guds ord og ikke gennem vores situationer.</p><p>I Nykøbing Mors Frikirke tror vi på, at denne sandhed forvandler liv og bringer stabilitet, håb og tryghed.</p><p><em>Gud velsigne jer.</em></p>',
 
     // Footer
     footer_text: "© 2026 Nykøbing Mors Frikirke. Alle rettigheder forbeholdes.",
@@ -237,25 +235,23 @@ const LANG = {
 
     reflection_1_date: "March 1, 2026",
     reflection_1_title: "A New Season",
-    reflection_1_excerpt:
-      "It was a great joy and a powerful experience to see so many people gathered on March 1 at Nykøbing Mors Frikirke for my installation as pastor. After a period of cold and grey days, the sun broke through, like a mirror of the joy shining in the faces...",
+    reflection_1_body:
+      '<p>It was a great joy and a powerful experience to see so many people gathered on March 1 at Nykøbing Mors Frikirke for my installation as pastor.</p><p>The first day of March became a special day. After a period of cold and grey days, the sun broke through, like a mirror of the joy shining in the faces of the church members, friends, and guests. The warm encounters, the encouragements, and the blessings spoken over my wife, myself, and the church touched me deeply. It was also a great joy to share this moment with my family, including my father, who had travelled from the USA.</p><p>Amid the joy, I was also reminded of the weight of responsibility. In my first sermon, I humbly expressed that the task is greater than my own strength. Meeting the hope in the congregation and the expectations of this calling made it clear to me how dependent I am on God\'s help.</p><blockquote class="bible-verse">"Apart from me you can do nothing." (John 15:5)</blockquote><p>I am deeply grateful for the call to this ministry and for the trust the church leadership has shown me. It is a joy to be allowed to serve in Denmark by sharing what God has placed in my heart: to proclaim His word and see lives transformed by the power of Jesus Christ.</p><p>By God\'s grace, I look forward to experiencing how the Lord will bless the church, the town, the country, and beyond into Europe and the world. For we are called to be the light of the world.</p><p><em>God\'s blessing<br>Samuel Christian Tondje</em></p>',
 
     reflection_2_date: "March 8, 2026",
     reflection_2_title: "Love in Action",
-    reflection_2_excerpt:
-      "We all talk about love. But do we really love in the same way? The Bible shows us that there are different forms of love: Eros attracts, phileo bonds, but agape gives. True love is revealed in Jesus Christ...",
+    reflection_2_body:
+      '<p>We all talk about love. But do we really love in the same way?</p><p>We "love" food, a car, a friend, a spouse… But it is not the same. The word is the same, but the meaning is different.</p><p>The Bible shows us that there are different forms of love: Eros attracts, phileo bonds, but agape gives. One can feel attachment without giving oneself. One can desire without truly loving.</p><p>True love is revealed in Jesus Christ.</p><blockquote class="bible-verse">"Greater love has no one than this: to lay down one\'s life for one\'s friends." (John 15:13)</blockquote><p>Christ does not merely speak of love. He shows it. He gives. He surrenders. He sacrifices.</p><p>God loves, and He acts. He gave His Son.</p><blockquote class="bible-verse">"For God so loved the world that he gave his one and only Son…" (John 3:16)</blockquote><p>Love in action is agape: A love that does not merely feel, but chooses, commits, and gives of itself. This is the love we are called to live in.</p>',
 
     reflection_3_date: "March 15, 2026",
     reflection_3_title: "Faith as a Source of Peace",
-    reflection_3_excerpt:
-      "In a world marked by unrest and change, peace can seem dependent on our circumstances. But true peace does not come from what happens around us. It comes from what we believe. Faith teaches us not to build on what we see, but on what God says...",
+    reflection_3_body:
+      '<p>In a world marked by unrest and change, peace can seem dependent on our circumstances. But true peace does not come from what happens around us. It comes from what we believe.</p><p>Faith teaches us not to build on what we see, but on what God says. When circumstances create unrest, faith gives an inner calm. It helps us surrender what we cannot control to God.</p><p>To believe is to trust. And to trust God is to find rest.</p><p>Faith does not deny life\'s challenges, but it does not let them have the last word. It anchors us in a truth greater than our feelings: God\'s faithfulness.</p><blockquote class="bible-verse">"You will keep in perfect peace those whose minds are steadfast, because they trust in you." (Isaiah 26:3)</blockquote><p>The more our faith grows, the more peace grows within us. Not because everything changes around us, but because something changes inside us.</p>',
 
     reflection_4_date: "March 22, 2026",
     reflection_4_title: "The Power of Identity",
-    reflection_4_excerpt:
-      "Our identity in Christ does not depend on the circumstances we go through, but on Him who has defined us. The Bible says: 'If anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.'...",
-
-    read_more: "Read More",
+    reflection_4_body:
+      '<p>Our identity in Christ does not depend on the circumstances we go through, but on Him who has defined us.</p><p>In everyday life, our identity does not change according to our situation or our appearance. It is established by an authority. In the same way, our spiritual identity is given by God and remains the same, regardless of which seasons we walk through.</p><blockquote class="bible-verse">"If anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come." (2 Corinthians 5:17)</blockquote><p>Yet we often let our circumstances define our perception of ourselves. We look at what we experience instead of holding on to what God says.</p><p>Let us learn to see ourselves through God\'s word and not through our situations.</p><p>At Nykøbing Mors Frikirke, we believe that this truth transforms lives and brings stability, hope, and security.</p><p><em>God bless you.</em></p>',
 
     // Footer
     footer_text: "© 2026 Nykøbing Mors Frikirke. All rights reserved.",

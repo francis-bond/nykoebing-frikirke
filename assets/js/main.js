@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-lang-key]").forEach((el) => {
       const key = el.getAttribute("data-lang-key");
       if (LANG[lang] && LANG[lang][key]) {
-        el.textContent = LANG[lang][key];
+        if (el.hasAttribute("data-lang-html")) {
+          el.innerHTML = LANG[lang][key];
+        } else {
+          el.textContent = LANG[lang][key];
+        }
       }
     });
 
