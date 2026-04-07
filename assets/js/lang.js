@@ -13,6 +13,12 @@ const LANG = {
     hero_subtitle: "Velkommen til Nykøbing Mors Frikirke",
     hero_cta: "Lær Os At Kende",
 
+    // Home — Welcome (Velkomstord)
+    welcome_title: "Velkomstord",
+    welcome_text:
+      "I hjertet af Nykøbing Mors, en rolig by i Norddanmark, ligger vores kirke, Nykøbing Mors Frikirke. Siden 1936 har dette sted været fyldt med Guds kærlighed til alle mennesker. Her er alle velkomne, præcis som de er. Men ingen går herfra helt de samme, for Guds ord giver lys, og Jesu kærlighed trøster og forandrer os. Kom som du er, og oplev Guds kærlighed, lys og fred. Vi glæder os til at se dig — Gud velsigne dig i Jesu navn.",
+    welcome_verse: "\"Hvis nogen er i Kristus, er han en ny skabning\" (2 Korintherbrev 5:17)",
+
     // Home — About snippet
     about_snippet_title: "Et Varmt Fællesskab",
     about_snippet_text:
@@ -47,7 +53,7 @@ const LANG = {
     // About page
     about_hero_title: "Om Os",
     about_text:
-      "Vi er en levende menighed, der samles om troen på Jesus Kristus. Vores fællesskab er bygget på åbenhed, varme og en dyb respekt for hvert enkelt menneske. Uanset om du har været troende hele dit liv eller er nysgerrig på den kristne tro, er du velkommen her. Vi mødes hver søndag til gudstjeneste, bøn og lovsang — og i løbet af ugen tilbyder vi forskellige grupper og aktiviteter for alle aldre. Vi drømmer om at være en kirke, der gør en forskel i lokalsamfundet, og vi inviterer dig til at være en del af den rejse.",
+      "Nykøbing Mors Frikirke er en forsamling af mennesker, der er samlet omkring troen på Jesus Kristus. Grundlagt i 1936 af kristne, hvis eneste styrke var deres kærlighed til Gud, bærer kirken stadig i dag denne arv af tro, troskab og engagement. Vi er forenet i vores tilknytning til Guds ord, som leder vores liv, former vores relationer og giver retning til vores vandring. Vi ønsker at vokse sammen, opmuntre hinanden og leve evangeliets værdier ud i praksis. I forsamlingen lægger vi stor vægt på at lytte, støtte og vejlede. Vi ønsker at skabe et rum, hvor enhver kan blive hørt, rådgivet og opmuntret — særligt unge og par. Vi ønsker at være en åben og imødekommende kirke. Alle er velkomne, uanset oprindelse eller sprog. For at alle kan deltage fuldt ud, tilbyder vi oversættelse under gudstjenesterne samt høreudstyr, så budskabet kan forstås på ens eget sprog. Kirken er et levende fællesskab præget af kærlighed, tilgivelse og næstekærlighed, og vi ønsker at afspejle Guds kærlighed i vores handlinger og relationer. Vi inviterer dig til at komme og være en del af fællesskabet, til at opdage Guds ord sammen med os og til at tage del i en levende tro, der ønsker at gøre en positiv forskel i samfundet.",
     about_values_title: "Vores Værdier",
     value_faith_title: "Tro",
     value_faith_text:
@@ -130,6 +136,12 @@ const LANG = {
     hero_subtitle: "Welcome to Nykøbing Mors Frikirke",
     hero_cta: "Get to Know Us",
 
+    // Home — Welcome
+    welcome_title: "Welcome",
+    welcome_text:
+      "In the heart of Nykøbing Mors, a peaceful town in Northern Denmark, lies our church, Nykøbing Mors Frikirke. Since 1936, this place has been filled with God's love for all people. Here, everyone is welcome, exactly as they are. But no one leaves quite the same, for God's word gives light, and the love of Jesus comforts and transforms us. Come as you are, and experience God's love, light, and peace. We look forward to seeing you — God bless you in Jesus' name.",
+    welcome_verse: "\"If anyone is in Christ, he is a new creation\" (2 Corinthians 5:17)",
+
     // Home — About snippet
     about_snippet_title: "A Warm Community",
     about_snippet_text:
@@ -164,7 +176,7 @@ const LANG = {
     // About page
     about_hero_title: "About Us",
     about_text:
-      "We are a vibrant congregation gathered around faith in Jesus Christ. Our community is built on openness, warmth, and a deep respect for every individual. Whether you have been a believer your whole life or are curious about the Christian faith, you are welcome here. We meet every Sunday for worship, prayer, and praise — and throughout the week we offer various groups and activities for all ages. We dream of being a church that makes a difference in the local community, and we invite you to be part of that journey.",
+      "Nykøbing Mors Frikirke is a congregation of people gathered around faith in Jesus Christ. Founded in 1936 by Christians whose only strength was their love for God, the church still carries this heritage of faith, faithfulness, and commitment today. We are united in our attachment to God's word, which guides our lives, shapes our relationships, and gives direction to our journey. We wish to grow together, encourage one another, and live out the values of the Gospel in practice. In our congregation, we place great emphasis on listening, supporting, and guiding. We want to create a space where everyone can be heard, counselled, and encouraged — especially young people and couples. We wish to be an open and welcoming church. Everyone is welcome, regardless of origin or language. So that everyone can participate fully, we offer translation during services as well as hearing equipment, so the message can be understood in one's own language. The church is a living community marked by love, forgiveness, and neighbourly care, and we wish to reflect God's love in our actions and relationships. We invite you to come and be part of the community, to discover God's word together with us, and to take part in a living faith that seeks to make a positive difference in society.",
     about_values_title: "Our Values",
     value_faith_title: "Faith",
     value_faith_text:
