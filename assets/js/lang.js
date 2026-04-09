@@ -19,10 +19,8 @@ const LANG = {
       "I hjertet af Nykøbing Mors, en rolig by i Norddanmark, ligger vores kirke, Nykøbing Mors Frikirke. Siden 1936 har dette sted været fyldt med Guds kærlighed til alle mennesker. Her er alle velkomne, præcis som de er. Men ingen går herfra helt de samme, for Guds ord giver lys, og Jesu kærlighed trøster og forandrer os. Kom som du er, og oplev Guds kærlighed, lys og fred. Vi glæder os til at se dig. Gud velsigne dig i Jesu navn.",
     welcome_verse: "\"Hvis nogen er i Kristus, er han en ny skabning\" (2 Korintherbrev 5:17)",
 
-    // Home - About snippet
-    about_snippet_title: "Et Varmt Fællesskab",
-    about_snippet_text:
-      "Nykøbing Mors Frikirke er et åbent og varmt kristent fællesskab midt i hjertet af Nykøbing Mors. Vi tror på, at kirken er et sted, hvor alle er velkomne, uanset baggrund, alder eller livssituation. Hos os finder du fællesskab, tro og nærvær i en atmosfære præget af kærlighed og respekt.",
+    // Home - Meet the Pastor
+    meet_pastor_title: "Mød Præsten",
 
     // Home - Program
     program_title: "Program",
@@ -93,6 +91,17 @@ const LANG = {
       "Samuel Christian Tondje er ledende præst i Nykøbing Mors Frikirke. Han blev indsat i denne tjeneste i begyndelsen af 2026 som en del af Apostolsk Kirkes netværk i Danmark. Han er gift med Karin Tondje, og sammen har de fem børn. Samuel Christian Tondje har pastoral erfaring fra Norge og har arbejdet i en international sammenhæng. Hans tjeneste er forankret i den apostolske tradition med særlig vægt på bibelundervisning, menighedsliv og åndelig vejledning. Ud over sit arbejde i kirken er han også engageret i kristen undervisning gennem udgivelse af bøger samt i sociale og humanitære initiativer. I sit arbejde i Nykøbing Mors ønsker han at være med til at udvikle en åben menighed, som bygger på kristen tro, gensidig respekt og engagement i lokalsamfundet.",
     manager_name: "Poul-Henrik Carl",
     manager_role: "Daglig leder",
+    karin_name: "Karin Tondje",
+    frank_name: "Frank Jensen",
+    frank_role: "Leder",
+    birgitte_name: "Birgitte Bundgaard",
+    birgitte_role: "Leder",
+    leader_6_name: "Leder",
+    leader_6_role: "Leder",
+    leader_7_name: "Leder",
+    leader_7_role: "Leder",
+    leader_8_name: "Leder",
+    leader_8_role: "Leder",
 
     // Genbrugsbutik page
     shop_title: "Genbrugsbutikken",
@@ -148,10 +157,8 @@ const LANG = {
       "In the heart of Nykøbing Mors, a peaceful town in Northern Denmark, lies our church, Nykøbing Mors Frikirke. Since 1936, this place has been filled with God's love for all people. Here, everyone is welcome, exactly as they are. But no one leaves quite the same, for God's word gives light, and the love of Jesus comforts and transforms us. Come as you are, and experience God's love, light, and peace. We look forward to seeing you. God bless you in Jesus' name.",
     welcome_verse: "\"If anyone is in Christ, he is a new creation\" (2 Corinthians 5:17)",
 
-    // Home - About snippet
-    about_snippet_title: "A Warm Community",
-    about_snippet_text:
-      "Nykøbing Mors Frikirke is an open and warm Christian community in the heart of Nykøbing Mors. We believe the church is a place where everyone is welcome, regardless of background, age, or life situation. With us you will find fellowship, faith, and presence in an atmosphere of love and respect.",
+    // Home - Meet the Pastor
+    meet_pastor_title: "Meet the Pastor",
 
     // Home - Program
     program_title: "Program",
@@ -222,6 +229,17 @@ const LANG = {
       "Samuel Christian Tondje is the lead pastor of Nykøbing Mors Frikirke. He was installed in this ministry in early 2026 as part of the Apostolic Church network in Denmark. He is married to Karin Tondje, and together they have five children. Samuel Christian Tondje has pastoral experience from Norway and has worked in an international context. His ministry is rooted in the apostolic tradition with a special emphasis on Bible teaching, congregational life, and spiritual guidance. In addition to his work in the church, he is also engaged in Christian education through the publication of books as well as social and humanitarian initiatives. In his work in Nykøbing Mors, he wishes to help develop an open congregation built on Christian faith, mutual respect, and engagement in the local community.",
     manager_name: "Poul-Henrik Carl",
     manager_role: "Daily Manager",
+    karin_name: "Karin Tondje",
+    frank_name: "Frank Jensen",
+    frank_role: "Leader",
+    birgitte_name: "Birgitte Bundgaard",
+    birgitte_role: "Leader",
+    leader_6_name: "Leader",
+    leader_6_role: "Leader",
+    leader_7_name: "Leader",
+    leader_7_role: "Leader",
+    leader_8_name: "Leader",
+    leader_8_role: "Leader",
 
     // Genbrugsbutik page
     shop_title: "The Thrift Shop",

@@ -506,6 +506,14 @@ h4 {
   gap: 2rem;
 }
 
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .team-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -816,6 +824,10 @@ blockquote.bible-verse {
   .values-grid {
     gap: 1.5rem;
   }
+
+  .leaders-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Mobile */
@@ -861,6 +873,10 @@ blockquote.bible-verse {
   }
 
   .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .leaders-grid {
     grid-template-columns: 1fr;
   }
 
