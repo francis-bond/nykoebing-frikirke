@@ -97,10 +97,10 @@ const LANG = {
     frank_role: "Leder",
     birgitte_name: "Birgitte Bundgaard",
     birgitte_role: "Leder",
-    placeholder_leader_1_name: "Leder",
-    placeholder_leader_1_role: "Leder",
-    placeholder_leader_2_name: "Leder",
-    placeholder_leader_2_role: "Leder",
+    susanne_name: "Susanne Højegaard",
+    susanne_role: "Lovsangsleder",
+    champa_name: "Champa Rai",
+    champa_role: "Leder",
 
     // Genbrugsbutik page
     shop_title: "Genbrugsbutikken",
@@ -234,10 +234,10 @@ const LANG = {
     frank_role: "Leader",
     birgitte_name: "Birgitte Bundgaard",
     birgitte_role: "Leader",
-    placeholder_leader_1_name: "Leader",
-    placeholder_leader_1_role: "Leader",
-    placeholder_leader_2_name: "Leader",
-    placeholder_leader_2_role: "Leader",
+    susanne_name: "Susanne Højegaard",
+    susanne_role: "Worship Leader",
+    champa_name: "Champa Rai",
+    champa_role: "Leader",
 
     // Genbrugsbutik page
     shop_title: "The Thrift Shop",
