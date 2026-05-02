@@ -550,6 +550,49 @@ h4 {
 }
 
 /* ===== REFLECTIONS (Blog Layout) ===== */
+/* ── Declaration of Faith ── */
+.faith-articles {
+  columns: 2;
+  column-gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.faith-article {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--white);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+}
+
+.faith-article p {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.faith-article cite {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-style: italic;
+}
+
+.faith-image {
+  margin-top: 2.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  max-height: 420px;
+}
+
+.faith-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .reflections-list {
   max-width: 750px;
   margin: 0 auto;
@@ -921,5 +964,9 @@ blockquote.bible-verse {
 
   .section-title {
     font-size: 1.8rem;
+  }
+
+  .faith-articles {
+    columns: 1;
   }
 }

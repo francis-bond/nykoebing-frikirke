@@ -40,7 +40,7 @@ const LANG = {
     // Home - Info strip
     info_address: "Aagade 8, 7900 Nykøbing Mors",
     info_time: "Søndag kl. 10.30",
-    info_email: "samuelchristiant@gmail.com",
+    info_email: "samueltondje@apostolskkirke.dk",
 
     // Home - Donation
     donation_title: "Støt Kirkens Arbejde",
@@ -72,12 +72,31 @@ const LANG = {
       "Tjeneste er det synlige udtryk for vores tro. Vi begrænser os ikke til at tjene lokalt, men ønsker også at støtte andre fællesskaber, både i Danmark og internationalt. Vi samarbejder med andre kirker og deltager i humanitære projekter. Vores ønske er at møde de mest sårbares behov konkret. Gennem tjenesten ønsker vi som kirke at være et redskab for kærlighed, omsorg og håb.",
     find_us_title: "Find Os",
 
+    // Trosgrundlag
+    trosgrundlag_title: "Trosgrundlag",
+    trosgrundlag_content: `
+      <div class="faith-article"><p>Vi tror på Jesus Kristus, Guds Søn, vores Herre og Frelser, som døde og opstod for alle menneskers frelse.</p><cite>(Johannes 3,16; Romerne 5,8)</cite></div>
+      <div class="faith-article"><p>Vi tror på syndernes forladelse ved Jesu Kristi blod, givet til alle, som omvender sig og tror på Ham.</p><cite>(Efeserne 1,7; 1 Johannesbrev 1,9)</cite></div>
+      <div class="faith-article"><p>Vi tror på det evige liv, som gives af nåde til dem, der tror på Jesus Kristus.</p><cite>(Johannes 17,3; Romerne 6,23)</cite></div>
+      <div class="faith-article"><p>Vi tror på, at ægteskabet er en hellig pagt indstiftet af Gud mellem én mand og én kvinde.</p><cite>(1 Mosebog 2,24; Matthæus 19,4-6)</cite></div>
+      <div class="faith-article"><p>Vi tror på dåb ved fuld nedsænkning som et vidnesbyrd om tro og lydighed mod Guds ord.</p><cite>(Romerne 6,4; Apostlenes Gerninger 2,38)</cite></div>
+      <div class="faith-article"><p>Vi tror på, at Helligånden gives til enhver troende, at Han bor i dem, helliggør dem, trøster dem og leder dem ind i hele sandheden.</p><cite>(Johannes 14,26; Galaterne 5,22-23)</cite></div>
+      <div class="faith-article"><p>Vi tror på, at Guds Ånd leder sin kirke og fører den efter Faderens vilje.</p><cite>(Apostlenes Gerninger 13,2; Efeserne 4,11-13)</cite></div>
+      <div class="faith-article"><p>Vi tror på de åndelige nådegaver, som er åbenbaret i Bibelen, til opbyggelse af kirken.</p><cite>(1 Korintherbrev 12,4-7; Romerne 12,6-8)</cite></div>
+      <div class="faith-article"><p>Vi tror på kraften i Jesu Kristi navn, som frelser, udfrier og helbreder.</p><cite>(Apostlenes Gerninger 4,12; Markus 16,17-18)</cite></div>
+      <div class="faith-article"><p>Vi tror på, at Gud stadig helbreder i dag, efter sin vilje og til sin ære.</p><cite>(Jakobs Brev 5,14-15)</cite></div>
+      <div class="faith-article"><p>Vi tror på, at Bibelen er Guds ord, fuldt inspireret og den højeste autoritet for tro og liv.</p><cite>(2 Timotheusbrev 3,16)</cite></div>
+      <div class="faith-article"><p>Vi tror på kirkens enhed, bestående af alle, der bekender Jesus Kristus som Herre.</p><cite>(Efeserne 4,4-6)</cite></div>
+      <div class="faith-article"><p>Vi tror på Jesu Kristi genkomst og opfyldelsen af alle Guds løfter.</p><cite>(Johannes 14,3; Johannes' Åbenbaring 22,12)</cite></div>
+      <div class="faith-article"><p>Vi tror på de dødes opstandelse og det evige liv hos Gud for dem, der tilhører Ham.</p><cite>(Johannes 11,25; 1 Korintherbrev 15,52; Johannes' Åbenbaring 21,4)</cite></div>
+    `,
+
     // Contact section
     contact_title: "Kontakt Os",
     contact_pastor_label: "Præst",
     contact_pastor_name: "Samuel Christian Tondje",
     contact_pastor_phone: "+45 42 41 65 28",
-    contact_pastor_email: "samuelchristiant@gmail.com",
+    contact_pastor_email: "samueltondje@apostolskkirke.dk",
     contact_manager_label: "Daglig leder",
     contact_manager_name: "Poul-Henrik Carl",
     contact_manager_phone: "+45 22 40 18 17",
@@ -177,7 +196,7 @@ const LANG = {
     // Home - Info strip
     info_address: "Aagade 8, 7900 Nykøbing Mors",
     info_time: "Sundays at 10:30 AM",
-    info_email: "samuelchristiant@gmail.com",
+    info_email: "samueltondje@apostolskkirke.dk",
 
     // Home - Donation
     donation_title: "Support the Church",
@@ -209,12 +228,31 @@ const LANG = {
       "Service is the visible expression of our faith. We do not limit ourselves to serving locally but also wish to support other communities, both in Denmark and internationally. We work with other churches and participate in humanitarian projects. Our desire is to meet the needs of the most vulnerable in a concrete way. Through service, we as a church wish to be an instrument of love, care, and hope.",
     find_us_title: "Find Us",
 
+    // Declaration of Faith
+    trosgrundlag_title: "Declaration of Faith",
+    trosgrundlag_content: `
+      <div class="faith-article"><p>We believe in Jesus Christ, the Son of God, our Lord and Saviour, who died and rose for the salvation of all people.</p><cite>(John 3:16; Romans 5:8)</cite></div>
+      <div class="faith-article"><p>We believe in the forgiveness of sins through the blood of Jesus Christ, given to all who repent and believe in Him.</p><cite>(Ephesians 1:7; 1 John 1:9)</cite></div>
+      <div class="faith-article"><p>We believe in eternal life, given by grace to those who believe in Jesus Christ.</p><cite>(John 17:3; Romans 6:23)</cite></div>
+      <div class="faith-article"><p>We believe that marriage is a sacred covenant instituted by God between one man and one woman.</p><cite>(Genesis 2:24; Matthew 19:4-6)</cite></div>
+      <div class="faith-article"><p>We believe in baptism by full immersion as a testimony of faith and obedience to God's word.</p><cite>(Romans 6:4; Acts 2:38)</cite></div>
+      <div class="faith-article"><p>We believe that the Holy Spirit is given to every believer, that He dwells in them, sanctifies them, comforts them and leads them into all truth.</p><cite>(John 14:26; Galatians 5:22-23)</cite></div>
+      <div class="faith-article"><p>We believe that God's Spirit leads His church and guides it according to the Father's will.</p><cite>(Acts 13:2; Ephesians 4:11-13)</cite></div>
+      <div class="faith-article"><p>We believe in the spiritual gifts revealed in the Bible, for the edification of the church.</p><cite>(1 Corinthians 12:4-7; Romans 12:6-8)</cite></div>
+      <div class="faith-article"><p>We believe in the power of the name of Jesus Christ, which saves, delivers and heals.</p><cite>(Acts 4:12; Mark 16:17-18)</cite></div>
+      <div class="faith-article"><p>We believe that God still heals today, according to His will and for His glory.</p><cite>(James 5:14-15)</cite></div>
+      <div class="faith-article"><p>We believe that the Bible is the word of God, fully inspired and the highest authority for faith and life.</p><cite>(2 Timothy 3:16)</cite></div>
+      <div class="faith-article"><p>We believe in the unity of the church, consisting of all who confess Jesus Christ as Lord.</p><cite>(Ephesians 4:4-6)</cite></div>
+      <div class="faith-article"><p>We believe in the return of Jesus Christ and the fulfilment of all God's promises.</p><cite>(John 14:3; Revelation 22:12)</cite></div>
+      <div class="faith-article"><p>We believe in the resurrection of the dead and eternal life with God for those who belong to Him.</p><cite>(John 11:25; 1 Corinthians 15:52; Revelation 21:4)</cite></div>
+    `,
+
     // Contact section
     contact_title: "Contact Us",
     contact_pastor_label: "Pastor",
     contact_pastor_name: "Samuel Christian Tondje",
     contact_pastor_phone: "+45 42 41 65 28",
-    contact_pastor_email: "samuelchristiant@gmail.com",
+    contact_pastor_email: "samueltondje@apostolskkirke.dk",
     contact_manager_label: "Daily Manager",
     contact_manager_name: "Poul-Henrik Carl",
     contact_manager_phone: "+45 22 40 18 17",
